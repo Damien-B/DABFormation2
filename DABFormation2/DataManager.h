@@ -7,10 +7,20 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
 
 @interface DataManager : NSObject
 
+
+@property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
+@property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
+@property (readonly, strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
+
+- (void)saveContext;
+- (NSURL *)applicationDocumentsDirectory;
+
 + (DataManager *)sharedDataManager;
-- (void)requestDataFromUrl:(NSString *)urlString;
+- (void)fetchAllStations;
+- (void)fetchCloseStations;
 
 @end

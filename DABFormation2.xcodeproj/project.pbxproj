@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A73D69A71C75C8FD00271DEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A73D69A21C75C8FD00271DEB /* LaunchScreen.storyboard */; };
+		A73D69A81C75C8FD00271DEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A73D69A41C75C8FD00271DEB /* Main.storyboard */; };
+		A73D69A91C75C8FD00271DEB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A73D69A61C75C8FD00271DEB /* Info.plist */; };
+		A73D69AD1C75C92500271DEB /* DABFormation2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A73D69AB1C75C92500271DEB /* DABFormation2.xcdatamodeld */; };
+		A73D69B21C75C93300271DEB /* Station+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A73D69AF1C75C93300271DEB /* Station+CoreDataProperties.m */; };
+		A73D69B31C75C93300271DEB /* Station.m in Sources */ = {isa = PBXBuildFile; fileRef = A73D69B11C75C93300271DEB /* Station.m */; };
 		A762C8071C746E17001573EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A762C8061C746E17001573EA /* main.m */; };
 		A762C80A1C746E17001573EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A762C8091C746E17001573EA /* AppDelegate.m */; };
 		A762C80D1C746E17001573EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A762C80C1C746E17001573EA /* ViewController.m */; };
-		A762C8101C746E17001573EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A762C80E1C746E17001573EA /* Main.storyboard */; };
-		A762C8131C746E17001573EA /* DABFormation2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A762C8111C746E17001573EA /* DABFormation2.xcdatamodeld */; };
 		A762C8151C746E18001573EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A762C8141C746E18001573EA /* Assets.xcassets */; };
-		A762C8181C746E18001573EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A762C8161C746E18001573EA /* LaunchScreen.storyboard */; };
 		A762C8211C746EDB001573EA /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A762C8201C746EDB001573EA /* DataManager.m */; };
+		A77F96701C7625AC00F8E517 /* CloseStationsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A77F966F1C7625AC00F8E517 /* CloseStationsListViewController.m */; };
+		A77F96731C7634D900F8E517 /* closeStationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A77F96721C7634D900F8E517 /* closeStationTableViewCell.m */; };
 		F5EBC6E5BA59CF57C2232A6E /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38A39DF75D556FC3A5E4C5B4 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
@@ -22,22 +27,30 @@
 		0ADFA9B79C26229062486744 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		2942BB5257AA4B6A7FB5267C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		38A39DF75D556FC3A5E4C5B4 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A73D69A31C75C8FD00271DEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A73D69A51C75C8FD00271DEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A73D69A61C75C8FD00271DEB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A73D69AC1C75C92500271DEB /* DABFormation2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DABFormation2.xcdatamodel; sourceTree = "<group>"; };
+		A73D69AE1C75C93300271DEB /* Station+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Station+CoreDataProperties.h"; sourceTree = "<group>"; };
+		A73D69AF1C75C93300271DEB /* Station+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Station+CoreDataProperties.m"; sourceTree = "<group>"; };
+		A73D69B01C75C93300271DEB /* Station.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Station.h; sourceTree = "<group>"; };
+		A73D69B11C75C93300271DEB /* Station.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Station.m; sourceTree = "<group>"; };
 		A762C8021C746E17001573EA /* DABFormation2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DABFormation2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A762C8061C746E17001573EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A762C8081C746E17001573EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A762C8091C746E17001573EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A762C80B1C746E17001573EA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A762C80C1C746E17001573EA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A762C80F1C746E17001573EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A762C8121C746E17001573EA /* DABFormation2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DABFormation2.xcdatamodel; sourceTree = "<group>"; };
 		A762C8141C746E18001573EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A762C8171C746E18001573EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A762C8191C746E18001573EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A762C81F1C746EDB001573EA /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
 		A762C8201C746EDB001573EA /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
 		A762C8221C747A4B001573EA /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = "Pods/../build/Debug-iphoneos/AFNetworking.framework"; sourceTree = "<group>"; };
-		A7AE67761C747F360065615C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		A7AE677A1C747FB40065615C /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		A77F966E1C7625AC00F8E517 /* CloseStationsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloseStationsListViewController.h; sourceTree = "<group>"; };
+		A77F966F1C7625AC00F8E517 /* CloseStationsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloseStationsListViewController.m; sourceTree = "<group>"; };
+		A77F96711C7634D900F8E517 /* closeStationTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = closeStationTableViewCell.h; sourceTree = "<group>"; };
+		A77F96721C7634D900F8E517 /* closeStationTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = closeStationTableViewCell.m; sourceTree = "<group>"; };
+		A7AE677F1C74DF1A0065615C /* DABFormation2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DABFormation2-Prefix.pch"; sourceTree = "<group>"; };
+		A7AE67801C74E1250065615C /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +83,28 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		A73D69A11C75C8FD00271DEB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A73D69A21C75C8FD00271DEB /* LaunchScreen.storyboard */,
+				A73D69A41C75C8FD00271DEB /* Main.storyboard */,
+				A73D69A61C75C8FD00271DEB /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A73D69AA1C75C90E00271DEB /* Coredata */ = {
+			isa = PBXGroup;
+			children = (
+				A73D69AB1C75C92500271DEB /* DABFormation2.xcdatamodeld */,
+				A73D69AE1C75C93300271DEB /* Station+CoreDataProperties.h */,
+				A73D69AF1C75C93300271DEB /* Station+CoreDataProperties.m */,
+				A73D69B01C75C93300271DEB /* Station.h */,
+				A73D69B11C75C93300271DEB /* Station.m */,
+			);
+			path = Coredata;
+			sourceTree = "<group>";
+		};
 		A762C7F91C746E17001573EA = {
 			isa = PBXGroup;
 			children = (
@@ -95,15 +130,17 @@
 				A762C8091C746E17001573EA /* AppDelegate.m */,
 				A762C81F1C746EDB001573EA /* DataManager.h */,
 				A762C8201C746EDB001573EA /* DataManager.m */,
-				A7AE677A1C747FB40065615C /* Constants.h */,
-				A7AE67761C747F360065615C /* PrefixHeader.pch */,
-				A762C80E1C746E17001573EA /* Main.storyboard */,
+				A77F96711C7634D900F8E517 /* closeStationTableViewCell.h */,
+				A77F96721C7634D900F8E517 /* closeStationTableViewCell.m */,
+				A7AE677F1C74DF1A0065615C /* DABFormation2-Prefix.pch */,
+				A7AE67801C74E1250065615C /* Constants.h */,
 				A762C80B1C746E17001573EA /* ViewController.h */,
 				A762C80C1C746E17001573EA /* ViewController.m */,
+				A77F966E1C7625AC00F8E517 /* CloseStationsListViewController.h */,
+				A77F966F1C7625AC00F8E517 /* CloseStationsListViewController.m */,
 				A762C8141C746E18001573EA /* Assets.xcassets */,
-				A762C8161C746E18001573EA /* LaunchScreen.storyboard */,
-				A762C8191C746E18001573EA /* Info.plist */,
-				A762C8111C746E17001573EA /* DABFormation2.xcdatamodeld */,
+				A73D69AA1C75C90E00271DEB /* Coredata */,
+				A73D69A11C75C8FD00271DEB /* Resources */,
 				A762C8051C746E17001573EA /* Supporting Files */,
 			);
 			path = DABFormation2;
@@ -177,9 +214,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A762C8181C746E18001573EA /* LaunchScreen.storyboard in Resources */,
+				A73D69A91C75C8FD00271DEB /* Info.plist in Resources */,
+				A73D69A81C75C8FD00271DEB /* Main.storyboard in Resources */,
 				A762C8151C746E18001573EA /* Assets.xcassets in Resources */,
-				A762C8101C746E17001573EA /* Main.storyboard in Resources */,
+				A73D69A71C75C8FD00271DEB /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,31 +276,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A73D69B21C75C93300271DEB /* Station+CoreDataProperties.m in Sources */,
 				A762C80D1C746E17001573EA /* ViewController.m in Sources */,
 				A762C8211C746EDB001573EA /* DataManager.m in Sources */,
 				A762C80A1C746E17001573EA /* AppDelegate.m in Sources */,
-				A762C8131C746E17001573EA /* DABFormation2.xcdatamodeld in Sources */,
 				A762C8071C746E17001573EA /* main.m in Sources */,
+				A77F96731C7634D900F8E517 /* closeStationTableViewCell.m in Sources */,
+				A73D69B31C75C93300271DEB /* Station.m in Sources */,
+				A77F96701C7625AC00F8E517 /* CloseStationsListViewController.m in Sources */,
+				A73D69AD1C75C92500271DEB /* DABFormation2.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A762C80E1C746E17001573EA /* Main.storyboard */ = {
+		A73D69A21C75C8FD00271DEB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A762C80F1C746E17001573EA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A762C8161C746E18001573EA /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A762C8171C746E18001573EA /* Base */,
+				A73D69A31C75C8FD00271DEB /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A73D69A41C75C8FD00271DEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A73D69A51C75C8FD00271DEB /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -360,8 +402,8 @@
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = DABFormation2/PrefixHeader.pch;
-				INFOPLIST_FILE = DABFormation2/Info.plist;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DABFormation2/DABFormation2-Prefix.pch";
+				INFOPLIST_FILE = DABFormation2/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pocketprod.DABFormation2;
@@ -379,8 +421,8 @@
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = DABFormation2/PrefixHeader.pch;
-				INFOPLIST_FILE = DABFormation2/Info.plist;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DABFormation2/DABFormation2-Prefix.pch";
+				INFOPLIST_FILE = DABFormation2/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pocketprod.DABFormation2;
@@ -412,12 +454,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		A762C8111C746E17001573EA /* DABFormation2.xcdatamodeld */ = {
+		A73D69AB1C75C92500271DEB /* DABFormation2.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				A762C8121C746E17001573EA /* DABFormation2.xcdatamodel */,
+				A73D69AC1C75C92500271DEB /* DABFormation2.xcdatamodel */,
 			);
-			currentVersion = A762C8121C746E17001573EA /* DABFormation2.xcdatamodel */;
+			currentVersion = A73D69AC1C75C92500271DEB /* DABFormation2.xcdatamodel */;
 			path = DABFormation2.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
