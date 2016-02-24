@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15C50" minimumToolsVersion="Automatic">
     <entity name="Station" representedClassName="Station" syncable="YES">
-        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="availableBikes" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
-        <attribute name="availableBikeStands" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
-        <attribute name="banking" optional="YES" attributeType="Boolean" syncable="YES"/>
-        <attribute name="bikeStands" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
-        <attribute name="bonus" optional="YES" attributeType="Boolean" syncable="YES"/>
-        <attribute name="contractName" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="lastUpdate" optional="YES" attributeType="Date" syncable="YES"/>
-        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
-        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
-        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="number" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
-        <attribute name="status" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="address" attributeType="String" syncable="YES"/>
+        <attribute name="availableBikes" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="availableBikeStands" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="banking" attributeType="Boolean" syncable="YES"/>
+        <attribute name="bikeStands" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="bonus" attributeType="Boolean" syncable="YES"/>
+        <attribute name="contractName" attributeType="String" syncable="YES"/>
+        <attribute name="isFavorite" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="lastUpdate" attributeType="Date" syncable="YES"/>
+        <attribute name="latitude" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="longitude" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <attribute name="number" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="status" attributeType="String" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Station" positionX="-63" positionY="-18" width="128" height="240"/>
+        <element name="Station" positionX="-63" positionY="-18" width="128" height="30"/>
     </elements>
 </model>

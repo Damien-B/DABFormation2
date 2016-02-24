@@ -47,7 +47,6 @@
             for(NSDictionary *stationDictionary in stationsArray[0]){
                 Station *station = [Station addStationFromDictionary:stationDictionary inContext:self.managedObjectContext];
             }
-            [self saveContext];
             [[NSNotificationCenter defaultCenter] postNotificationName:NotificationAllStationsSaved object:nil];
         }else{
             DLog(@"ERROR : %@", error);

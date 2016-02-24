@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "DataManager.h"
+#import "UtilityManager.h"
 #import <NotificationCenter/NotificationCenter.h>
 
 @interface ViewController ()
@@ -23,7 +24,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     [[DataManager sharedDataManager] fetchAllStations];
-    
+    [[UtilityManager sharedUtilityManager] askForLocationPermission];
 }
 
 -(void)viewWillAppear:(BOOL)animated {

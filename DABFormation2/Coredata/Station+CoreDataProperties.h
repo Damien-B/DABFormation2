@@ -2,7 +2,7 @@
 //  Station+CoreDataProperties.h
 //  DABFormation2
 //
-//  Created by mac mini pprod 3 on 18/02/2016.
+//  Created by mac mini pprod 3 on 24/02/2016.
 //  Copyright © 2016 mac mini pprod 3. All rights reserved.
 //
 //  Choose "Create NSManagedObject Subclass…" from the Core Data editor menu
@@ -28,6 +28,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nullable, nonatomic, retain) NSString *name;
 @property (nullable, nonatomic, retain) NSNumber *number;
 @property (nullable, nonatomic, retain) NSString *status;
+@property (nullable, nonatomic, retain) NSNumber *isFavorite;
 
 @end
 

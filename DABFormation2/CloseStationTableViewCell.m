@@ -1,14 +1,14 @@
 //
-//  closeStationTableViewCell.m
+//  CloseStationTableViewCell.m
 //  DABFormation2
 //
 //  Created by mac mini pprod 3 on 18/02/2016.
 //  Copyright © 2016 mac mini pprod 3. All rights reserved.
 //
 
-#import "closeStationTableViewCell.h"
+#import "CloseStationTableViewCell.h"
 
-@implementation closeStationTableViewCell
+@implementation CloseStationTableViewCell
 
 - (void)awakeFromNib {
     // Initialization code

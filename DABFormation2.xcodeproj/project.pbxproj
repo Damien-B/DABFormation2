@@ -13,13 +13,14 @@
 		A73D69AD1C75C92500271DEB /* DABFormation2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A73D69AB1C75C92500271DEB /* DABFormation2.xcdatamodeld */; };
 		A73D69B21C75C93300271DEB /* Station+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A73D69AF1C75C93300271DEB /* Station+CoreDataProperties.m */; };
 		A73D69B31C75C93300271DEB /* Station.m in Sources */ = {isa = PBXBuildFile; fileRef = A73D69B11C75C93300271DEB /* Station.m */; };
+		A761D8391C7DB58400773746 /* UtilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A761D8381C7DB58400773746 /* UtilityManager.m */; };
 		A762C8071C746E17001573EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A762C8061C746E17001573EA /* main.m */; };
 		A762C80A1C746E17001573EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A762C8091C746E17001573EA /* AppDelegate.m */; };
 		A762C80D1C746E17001573EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A762C80C1C746E17001573EA /* ViewController.m */; };
 		A762C8151C746E18001573EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A762C8141C746E18001573EA /* Assets.xcassets */; };
 		A762C8211C746EDB001573EA /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A762C8201C746EDB001573EA /* DataManager.m */; };
 		A77F96701C7625AC00F8E517 /* CloseStationsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A77F966F1C7625AC00F8E517 /* CloseStationsListViewController.m */; };
-		A77F96731C7634D900F8E517 /* closeStationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A77F96721C7634D900F8E517 /* closeStationTableViewCell.m */; };
+		A77F96731C7634D900F8E517 /* CloseStationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A77F96721C7634D900F8E517 /* CloseStationTableViewCell.m */; };
 		F5EBC6E5BA59CF57C2232A6E /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38A39DF75D556FC3A5E4C5B4 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,8 @@
 		A73D69AF1C75C93300271DEB /* Station+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Station+CoreDataProperties.m"; sourceTree = "<group>"; };
 		A73D69B01C75C93300271DEB /* Station.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Station.h; sourceTree = "<group>"; };
 		A73D69B11C75C93300271DEB /* Station.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Station.m; sourceTree = "<group>"; };
+		A761D8371C7DB58400773746 /* UtilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityManager.h; sourceTree = "<group>"; };
+		A761D8381C7DB58400773746 /* UtilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilityManager.m; sourceTree = "<group>"; };
 		A762C8021C746E17001573EA /* DABFormation2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DABFormation2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A762C8061C746E17001573EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A762C8081C746E17001573EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -47,8 +50,8 @@
 		A762C8221C747A4B001573EA /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = "Pods/../build/Debug-iphoneos/AFNetworking.framework"; sourceTree = "<group>"; };
 		A77F966E1C7625AC00F8E517 /* CloseStationsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloseStationsListViewController.h; sourceTree = "<group>"; };
 		A77F966F1C7625AC00F8E517 /* CloseStationsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloseStationsListViewController.m; sourceTree = "<group>"; };
-		A77F96711C7634D900F8E517 /* closeStationTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = closeStationTableViewCell.h; sourceTree = "<group>"; };
-		A77F96721C7634D900F8E517 /* closeStationTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = closeStationTableViewCell.m; sourceTree = "<group>"; };
+		A77F96711C7634D900F8E517 /* CloseStationTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloseStationTableViewCell.h; sourceTree = "<group>"; };
+		A77F96721C7634D900F8E517 /* CloseStationTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloseStationTableViewCell.m; sourceTree = "<group>"; };
 		A7AE677F1C74DF1A0065615C /* DABFormation2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DABFormation2-Prefix.pch"; sourceTree = "<group>"; };
 		A7AE67801C74E1250065615C /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -105,6 +108,15 @@
 			path = Coredata;
 			sourceTree = "<group>";
 		};
+		A761D8361C7DB14500773746 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				A77F96711C7634D900F8E517 /* CloseStationTableViewCell.h */,
+				A77F96721C7634D900F8E517 /* CloseStationTableViewCell.m */,
+			);
+			name = cells;
+			sourceTree = "<group>";
+		};
 		A762C7F91C746E17001573EA = {
 			isa = PBXGroup;
 			children = (
@@ -126,12 +138,14 @@
 		A762C8041C746E17001573EA /* DABFormation2 */ = {
 			isa = PBXGroup;
 			children = (
+				A73D69AA1C75C90E00271DEB /* Coredata */,
+				A761D8361C7DB14500773746 /* cells */,
 				A762C8081C746E17001573EA /* AppDelegate.h */,
 				A762C8091C746E17001573EA /* AppDelegate.m */,
 				A762C81F1C746EDB001573EA /* DataManager.h */,
 				A762C8201C746EDB001573EA /* DataManager.m */,
-				A77F96711C7634D900F8E517 /* closeStationTableViewCell.h */,
-				A77F96721C7634D900F8E517 /* closeStationTableViewCell.m */,
+				A761D8371C7DB58400773746 /* UtilityManager.h */,
+				A761D8381C7DB58400773746 /* UtilityManager.m */,
 				A7AE677F1C74DF1A0065615C /* DABFormation2-Prefix.pch */,
 				A7AE67801C74E1250065615C /* Constants.h */,
 				A762C80B1C746E17001573EA /* ViewController.h */,
@@ -139,7 +153,6 @@
 				A77F966E1C7625AC00F8E517 /* CloseStationsListViewController.h */,
 				A77F966F1C7625AC00F8E517 /* CloseStationsListViewController.m */,
 				A762C8141C746E18001573EA /* Assets.xcassets */,
-				A73D69AA1C75C90E00271DEB /* Coredata */,
 				A73D69A11C75C8FD00271DEB /* Resources */,
 				A762C8051C746E17001573EA /* Supporting Files */,
 			);
@@ -276,12 +289,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A761D8391C7DB58400773746 /* UtilityManager.m in Sources */,
 				A73D69B21C75C93300271DEB /* Station+CoreDataProperties.m in Sources */,
 				A762C80D1C746E17001573EA /* ViewController.m in Sources */,
 				A762C8211C746EDB001573EA /* DataManager.m in Sources */,
 				A762C80A1C746E17001573EA /* AppDelegate.m in Sources */,
 				A762C8071C746E17001573EA /* main.m in Sources */,
-				A77F96731C7634D900F8E517 /* closeStationTableViewCell.m in Sources */,
+				A77F96731C7634D900F8E517 /* CloseStationTableViewCell.m in Sources */,
 				A73D69B31C75C93300271DEB /* Station.m in Sources */,
 				A77F96701C7625AC00F8E517 /* CloseStationsListViewController.m in Sources */,
 				A73D69AD1C75C92500271DEB /* DABFormation2.xcdatamodeld in Sources */,

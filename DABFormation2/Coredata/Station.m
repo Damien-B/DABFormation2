@@ -35,6 +35,7 @@
         newStation.number = stationDictionary[@"number"];
         newStation.status = stationDictionary[@"status"];
         //DLog(@"station %@ added to core data", newStation.name);
+        [[DataManager sharedDataManager] saveContext];
         return newStation;
     }else{
         Station *station = stationsWithCurrentNumber[0];
@@ -53,7 +54,14 @@
         station.number = stationDictionary[@"number"];
         station.status = stationDictionary[@"status"];
         //DLog(@"station %@ updated in core data", station.name);
+        [[DataManager sharedDataManager] saveContext];
         return station;
     }
 }
+
+-(void)changeIsFavorite {
+    self.isFavorite = ([self.isFavorite isEqual:@1])?@0:@1;
+    [[DataManager sharedDataManager] saveContext];
+}
+
 @end

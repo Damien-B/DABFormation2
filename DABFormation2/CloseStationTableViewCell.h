@@ -1,5 +1,5 @@
 //
-//  closeStationTableViewCell.h
+//  CloseStationTableViewCell.h
 //  DABFormation2
 //
 //  Created by mac mini pprod 3 on 18/02/2016.
@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface closeStationTableViewCell : UITableViewCell
+@interface CloseStationTableViewCell : UITableViewCell
 @property (weak, nonatomic) IBOutlet UILabel *titleLabel;
+@property (weak, nonatomic) IBOutlet UILabel *subtitleLabel;
 
 @end
