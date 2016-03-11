@@ -13,6 +13,7 @@
 		A73D69AD1C75C92500271DEB /* DABFormation2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A73D69AB1C75C92500271DEB /* DABFormation2.xcdatamodeld */; };
 		A73D69B21C75C93300271DEB /* Station+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A73D69AF1C75C93300271DEB /* Station+CoreDataProperties.m */; };
 		A73D69B31C75C93300271DEB /* Station.m in Sources */ = {isa = PBXBuildFile; fileRef = A73D69B11C75C93300271DEB /* Station.m */; };
+		A73F9F671C80B69F0029A17A /* frogs.wav in Resources */ = {isa = PBXBuildFile; fileRef = A73F9F661C80B69F0029A17A /* frogs.wav */; };
 		A761D8391C7DB58400773746 /* UtilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A761D8381C7DB58400773746 /* UtilityManager.m */; };
 		A762C8071C746E17001573EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A762C8061C746E17001573EA /* main.m */; };
 		A762C80A1C746E17001573EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A762C8091C746E17001573EA /* AppDelegate.m */; };
@@ -36,6 +37,7 @@
 		A73D69AF1C75C93300271DEB /* Station+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Station+CoreDataProperties.m"; sourceTree = "<group>"; };
 		A73D69B01C75C93300271DEB /* Station.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Station.h; sourceTree = "<group>"; };
 		A73D69B11C75C93300271DEB /* Station.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Station.m; sourceTree = "<group>"; };
+		A73F9F661C80B69F0029A17A /* frogs.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = frogs.wav; sourceTree = "<group>"; };
 		A761D8371C7DB58400773746 /* UtilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityManager.h; sourceTree = "<group>"; };
 		A761D8381C7DB58400773746 /* UtilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilityManager.m; sourceTree = "<group>"; };
 		A762C8021C746E17001573EA /* DABFormation2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DABFormation2.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,6 +91,7 @@
 		A73D69A11C75C8FD00271DEB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A73F9F661C80B69F0029A17A /* frogs.wav */,
 				A73D69A21C75C8FD00271DEB /* LaunchScreen.storyboard */,
 				A73D69A41C75C8FD00271DEB /* Main.storyboard */,
 				A73D69A61C75C8FD00271DEB /* Info.plist */,
@@ -201,6 +204,12 @@
 				TargetAttributes = {
 					A762C8011C746E17001573EA = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 96Z2D2ZQR7;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -228,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A73D69A91C75C8FD00271DEB /* Info.plist in Resources */,
+				A73F9F671C80B69F0029A17A /* frogs.wav in Resources */,
 				A73D69A81C75C8FD00271DEB /* Main.storyboard in Resources */,
 				A762C8151C746E18001573EA /* Assets.xcassets in Resources */,
 				A73D69A71C75C8FD00271DEB /* LaunchScreen.storyboard in Resources */,
@@ -411,6 +421,8 @@
 			baseConfigurationReference = 0ADFA9B79C26229062486744 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
@@ -422,6 +434,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pocketprod.DABFormation2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e9a5ea51-2e34-45c6-ad60-436103266f99";
 			};
 			name = Debug;
 		};
@@ -430,6 +443,8 @@
 			baseConfigurationReference = 2942BB5257AA4B6A7FB5267C /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
@@ -441,6 +456,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pocketprod.DABFormation2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

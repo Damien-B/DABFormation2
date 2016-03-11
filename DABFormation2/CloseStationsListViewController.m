@@ -29,6 +29,7 @@
     if (![self.fetchedResultsController performFetch:&error]) {
         DLog(@"error : %@", error.localizedDescription);
     }
+    [UIApplication sharedApplication].applicationIconBadgeNumber = 0;
 }
 
 - (void)didReceiveMemoryWarning {
