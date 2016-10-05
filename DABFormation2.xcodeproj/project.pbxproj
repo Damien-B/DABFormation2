@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		A73D69A71C75C8FD00271DEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A73D69A21C75C8FD00271DEB /* LaunchScreen.storyboard */; };
 		A73D69A81C75C8FD00271DEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A73D69A41C75C8FD00271DEB /* Main.storyboard */; };
-		A73D69A91C75C8FD00271DEB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A73D69A61C75C8FD00271DEB /* Info.plist */; };
 		A73D69AD1C75C92500271DEB /* DABFormation2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A73D69AB1C75C92500271DEB /* DABFormation2.xcdatamodeld */; };
 		A73D69B21C75C93300271DEB /* Station+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A73D69AF1C75C93300271DEB /* Station+CoreDataProperties.m */; };
 		A73D69B31C75C93300271DEB /* Station.m in Sources */ = {isa = PBXBuildFile; fileRef = A73D69B11C75C93300271DEB /* Station.m */; };
@@ -22,6 +21,7 @@
 		A762C8211C746EDB001573EA /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A762C8201C746EDB001573EA /* DataManager.m */; };
 		A77F96701C7625AC00F8E517 /* CloseStationsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A77F966F1C7625AC00F8E517 /* CloseStationsListViewController.m */; };
 		A77F96731C7634D900F8E517 /* CloseStationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A77F96721C7634D900F8E517 /* CloseStationTableViewCell.m */; };
+		A78FCE1B1D2509020050FA07 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A78FCE1A1D2509020050FA07 /* AFNetworking.framework */; };
 		F5EBC6E5BA59CF57C2232A6E /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38A39DF75D556FC3A5E4C5B4 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,11 +49,11 @@
 		A762C8141C746E18001573EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A762C81F1C746EDB001573EA /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
 		A762C8201C746EDB001573EA /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
-		A762C8221C747A4B001573EA /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = "Pods/../build/Debug-iphoneos/AFNetworking.framework"; sourceTree = "<group>"; };
 		A77F966E1C7625AC00F8E517 /* CloseStationsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloseStationsListViewController.h; sourceTree = "<group>"; };
 		A77F966F1C7625AC00F8E517 /* CloseStationsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloseStationsListViewController.m; sourceTree = "<group>"; };
 		A77F96711C7634D900F8E517 /* CloseStationTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloseStationTableViewCell.h; sourceTree = "<group>"; };
 		A77F96721C7634D900F8E517 /* CloseStationTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloseStationTableViewCell.m; sourceTree = "<group>"; };
+		A78FCE1A1D2509020050FA07 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = "../../../Library/Developer/Xcode/DerivedData/DABFormation2-apuegkblxytejpcejeakqfevmndi/Build/Products/Debug-iphoneos/AFNetworking.framework"; sourceTree = "<group>"; };
 		A7AE677F1C74DF1A0065615C /* DABFormation2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DABFormation2-Prefix.pch"; sourceTree = "<group>"; };
 		A7AE67801C74E1250065615C /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A78FCE1B1D2509020050FA07 /* AFNetworking.framework in Frameworks */,
 				F5EBC6E5BA59CF57C2232A6E /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -73,7 +74,7 @@
 		08ADB1DE643645D54085DB79 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A762C8221C747A4B001573EA /* AFNetworking.framework */,
+				A78FCE1A1D2509020050FA07 /* AFNetworking.framework */,
 				38A39DF75D556FC3A5E4C5B4 /* Pods.framework */,
 			);
 			name = Frameworks;
@@ -199,7 +200,7 @@
 		A762C7FA1C746E17001573EA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "mac mini pprod 3";
 				TargetAttributes = {
 					A762C8011C746E17001573EA = {
@@ -236,7 +237,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A73D69A91C75C8FD00271DEB /* Info.plist in Resources */,
 				A73F9F671C80B69F0029A17A /* frogs.wav in Resources */,
 				A73D69A81C75C8FD00271DEB /* Main.storyboard in Resources */,
 				A762C8151C746E18001573EA /* Assets.xcassets in Resources */,
@@ -249,7 +249,7 @@
 /* Begin PBXShellScriptBuildPhase section */
 		68915F64D43B1D655CAEDFAA /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			files = (
 			);
 			inputPaths = (
@@ -264,7 +264,7 @@
 		};
 		A22FB1C3EC70544890D16CED /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			files = (
 			);
 			inputPaths = (
@@ -422,7 +422,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
@@ -434,7 +433,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pocketprod.DABFormation2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "e9a5ea51-2e34-45c6-ad60-436103266f99";
 			};
 			name = Debug;
 		};
@@ -444,7 +442,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
